@@ -2,11 +2,11 @@ import path from 'path';
 
 export default {
     entry: [
-        './client/src'
+        './src'
     ],
     output: {
-        filename: 'react/bundle.js',
-        path: path.resolve(__dirname, 'webroot/js'), // TODO: change to put it somewhere for cake
+        filename: 'js/bundle.js',
+        path: path.resolve(__dirname, 'CakeProject/webroot'), // TODO: change to put it somewhere for cake
         publicPath: '/client/static',
     },
     module: {

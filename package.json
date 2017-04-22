@@ -10,7 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "dev:cake": "cd CakeProject && cake server",
-    "dev:proxy": "browser-sync start --no-notify --no-inject-changes --proxy \"localhost/cake-react\" --serveStatic \"./CakeProject/webroot\" --files \"./CakeProject/webroot,./CakeProject/src,./CakeProject/config\""
+    "dev:proxy": "browser-sync start --no-notify --no-inject-changes --proxy \"localhost/cake-react\" --serveStatic \"./CakeProject/webroot\" --files \"./CakeProject/webroot,./CakeProject/src,./CakeProject/config\"",
+    "watch": "webpack --watch",
+    "build:p": "webpack -p"
 
   },
   "repository": {
