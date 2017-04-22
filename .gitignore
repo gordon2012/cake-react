@@ -1,8 +1,3 @@
-/vendor/*
-/config/app.php
-/tmp/*
-/logs/*
 /node_modules/
-/dist/
-*.log
-/webroot/js/react/bundle.js
+/CakeProject/webroot/react/bundle.js
+*.log.*
